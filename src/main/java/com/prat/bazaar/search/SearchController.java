@@ -30,4 +30,10 @@ public class SearchController {
         return productService.getProductById(id);
     }
 
+    @GetMapping("/product/search/{keyword}")
+    public List<Product> searchProductByKeyword(@PathVariable String keyword) {
+        log.info("Searching Product by Keyword: " + keyword);
+        return productService.geProductDetailsBySearchKeyword(keyword);
+    }
+
 }

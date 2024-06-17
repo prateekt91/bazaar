@@ -9,4 +9,6 @@ public interface ProductService {
     public List<Product> getAllProducts();
 
     public Product getProductById(String id);
+
+    List<Product> geProductDetailsBySearchKeyword(String keyword);
 }
