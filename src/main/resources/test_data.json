@@ -1,0 +1,509 @@
+[
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d00"
+    },
+    "name": "Wireless Mouse",
+    "description": "A high-precision wireless mouse",
+    "price": 29.99,
+    "category": "Electronics",
+    "stock": 150,
+    "createdAt": {
+      "$date": "2023-03-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d01"
+    },
+    "name": "Bluetooth Headphones",
+    "description": "Noise-cancelling over-ear headphones",
+    "price": 99.99,
+    "category": "Electronics",
+    "stock": 75,
+    "createdAt": {
+      "$date": "2023-03-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d02"
+    },
+    "name": "4K Monitor",
+    "description": "27-inch 4K UHD monitor with HDR",
+    "price": 399.99,
+    "category": "Electronics",
+    "stock": 50,
+    "createdAt": {
+      "$date": "2023-03-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d03"
+    },
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical gaming keyboard",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 120,
+    "createdAt": {
+      "$date": "2023-03-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d04"
+    },
+    "name": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support",
+    "price": 199.99,
+    "category": "Furniture",
+    "stock": 30,
+    "createdAt": {
+      "$date": "2023-04-01T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d05"
+    },
+    "name": "USB-C Hub",
+    "description": "7-in-1 USB-C hub with HDMI and Ethernet",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 200,
+    "createdAt": {
+      "$date": "2023-04-05T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d06"
+    },
+    "name": "Smartwatch",
+    "description": "Water-resistant smartwatch with heart rate monitor",
+    "price": 149.99,
+    "category": "Electronics",
+    "stock": 80,
+    "createdAt": {
+      "$date": "2023-04-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d07"
+    },
+    "name": "Portable Charger",
+    "description": "10000mAh portable charger with fast charging",
+    "price": 25.99,
+    "category": "Electronics",
+    "stock": 250,
+    "createdAt": {
+      "$date": "2023-04-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d08"
+    },
+    "name": "Fitness Tracker",
+    "description": "Fitness tracker with step counter and sleep monitor",
+    "price": 59.99,
+    "category": "Electronics",
+    "stock": 90,
+    "createdAt": {
+      "$date": "2023-04-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d09"
+    },
+    "name": "Electric Kettle",
+    "description": "1.7L electric kettle with auto shut-off",
+    "price": 39.99,
+    "category": "Home Appliances",
+    "stock": 100,
+    "createdAt": {
+      "$date": "2023-04-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0a"
+    },
+    "name": "Robot Vacuum",
+    "description": "Smart robot vacuum with mapping and WiFi",
+    "price": 299.99,
+    "category": "Home Appliances",
+    "stock": 40,
+    "createdAt": {
+      "$date": "2023-05-01T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0b"
+    },
+    "name": "Smart Light Bulb",
+    "description": "Dimmable smart light bulb with voice control",
+    "price": 19.99,
+    "category": "Electronics",
+    "stock": 500,
+    "createdAt": {
+      "$date": "2023-05-05T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0c"
+    },
+    "name": "Laptop Stand",
+    "description": "Adjustable laptop stand with cooling fan",
+    "price": 34.99,
+    "category": "Office Supplies",
+    "stock": 120,
+    "createdAt": {
+      "$date": "2023-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0d"
+    },
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with 5 modes",
+    "price": 49.99,
+    "category": "Personal Care",
+    "stock": 70,
+    "createdAt": {
+      "$date": "2023-05-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0e"
+    },
+    "name": "Air Fryer",
+    "description": "4.5L air fryer with digital touch screen",
+    "price": 129.99,
+    "category": "Home Appliances",
+    "stock": 55,
+    "createdAt": {
+      "$date": "2023-05-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d0f"
+    },
+    "name": "Standing Desk",
+    "description": "Adjustable standing desk with memory presets",
+    "price": 299.99,
+    "category": "Office Supplies",
+    "stock": 35,
+    "createdAt": {
+      "$date": "2023-05-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d10"
+    },
+    "name": "Noise Cancelling Earbuds",
+    "description": "True wireless noise cancelling earbuds",
+    "price": 129.99,
+    "category": "Electronics",
+    "stock": 110,
+    "createdAt": {
+      "$date": "2023-05-30T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d11"
+    },
+    "name": "Smart Thermostat",
+    "description": "WiFi smart thermostat with voice control",
+    "price": 99.99,
+    "category": "Home Appliances",
+    "stock": 45,
+    "createdAt": {
+      "$date": "2023-06-01T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d12"
+    },
+    "name": "Blender",
+    "description": "High-speed blender with multiple settings",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "stock": 85,
+    "createdAt": {
+      "$date": "2023-06-05T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d13"
+    },
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with touch control and USB port",
+    "price": 24.99,
+    "category": "Office Supplies",
+    "stock": 160,
+    "createdAt": {
+      "$date": "2023-06-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d14"
+    },
+    "name": "Gaming Monitor",
+    "description": "32-inch curved gaming monitor with 144Hz refresh rate",
+    "price": 349.99,
+    "category": "Electronics",
+    "stock": 50,
+    "createdAt": {
+      "$date": "2023-06-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d15"
+    },
+    "name": "Electric Scooter",
+    "description": "Foldable electric scooter with long battery life",
+    "price": 499.99,
+    "category": "Sports & Outdoors",
+    "stock": 25,
+    "createdAt": {
+      "$date": "2023-06-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d16"
+    },
+    "name": "Water Bottle",
+    "description": "Insulated stainless steel water bottle",
+    "price": 19.99,
+    "category": "Sports & Outdoors",
+    "stock": 200,
+    "createdAt": {
+      "$date": "2023-06-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d17"
+    },
+    "name": "Yoga Mat",
+    "description": "Eco-friendly yoga mat with carrying strap",
+    "price": 29.99,
+    "category": "Sports & Outdoors",
+    "stock": 90,
+    "createdAt": {
+      "$date": "2023-06-30T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d18"
+    },
+    "name": "Smart Doorbell",
+    "description": "WiFi smart doorbell with camera and intercom",
+    "price": 129.99,
+    "category": "Home Security",
+    "stock": 70,
+    "createdAt": {
+      "$date": "2023-07-01T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d19"
+    },
+    "name": "Smart Plug",
+    "description": "WiFi smart plug with energy monitoring",
+    "price": 14.99,
+    "category": "Electronics",
+    "stock": 300,
+    "createdAt": {
+      "$date": "2023-07-05T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1a"
+    },
+    "name": "Electric Griddle",
+    "description": "Non-stick electric griddle with temperature control",
+    "price": 49.99,
+    "category": "Home Appliances",
+    "stock": 60,
+    "createdAt": {
+      "$date": "2023-07-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1b"
+    },
+    "name": "Camera Drone",
+    "description": "4K camera drone with GPS and follow mode",
+    "price": 399.99,
+    "category": "Electronics",
+    "stock": 40,
+    "createdAt": {
+      "$date": "2023-07-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1c"
+    },
+    "name": "Electric Shaver",
+    "description": "Rechargeable electric shaver with 5D floating heads",
+    "price": 59.99,
+    "category": "Personal Care",
+    "stock": 75,
+    "createdAt": {
+      "$date": "2023-07-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1d"
+    },
+    "name": "Espresso Machine",
+    "description": "Automatic espresso machine with milk frother",
+    "price": 299.99,
+    "category": "Home Appliances",
+    "stock": 30,
+    "createdAt": {
+      "$date": "2023-07-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1e"
+    },
+    "name": "Action Camera",
+    "description": "4K action camera with waterproof case",
+    "price": 149.99,
+    "category": "Electronics",
+    "stock": 60,
+    "createdAt": {
+      "$date": "2023-07-30T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d1f"
+    },
+    "name": "Electric Toothbrush Heads",
+    "description": "Replacement heads for electric toothbrush",
+    "price": 19.99,
+    "category": "Personal Care",
+    "stock": 150,
+    "createdAt": {
+      "$date": "2023-08-01T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d20"
+    },
+    "name": "Smart Speaker",
+    "description": "Voice-controlled smart speaker with Bluetooth",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 90,
+    "createdAt": {
+      "$date": "2023-08-05T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d21"
+    },
+    "name": "Vacuum Sealer",
+    "description": "Automatic vacuum sealer for food storage",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "stock": 50,
+    "createdAt": {
+      "$date": "2023-08-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d22"
+    },
+    "name": "Infrared Thermometer",
+    "description": "Contactless infrared thermometer with LCD display",
+    "price": 39.99,
+    "category": "Health & Wellness",
+    "stock": 120,
+    "createdAt": {
+      "$date": "2023-08-15T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d23"
+    },
+    "name": "Electric Grill",
+    "description": "Indoor electric grill with non-stick surface",
+    "price": 99.99,
+    "category": "Home Appliances",
+    "stock": 70,
+    "createdAt": {
+      "$date": "2023-08-20T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d24"
+    },
+    "name": "WiFi Range Extender",
+    "description": "WiFi range extender with dual band support",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 90,
+    "createdAt": {
+      "$date": "2023-08-25T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d25"
+    },
+    "name": "Electric Blanket",
+    "description": "Queen size electric blanket with dual control",
+    "price": 69.99,
+    "category": "Home Appliances",
+    "stock": 40,
+    "createdAt": {
+      "$date": "2023-08-30T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60c72b994f1a256a1c8a2d26"
+    },
+    "name": "Handheld Vacuum",
+    "description": "Cordless handheld vacuum cleaner",
+    "price": 59.99,
+    "category": "Home Appliances",
+    "stock": 80,
+    "createdAt": {
+      "$date": "2023-09-01T08:00:00Z"
+    }
+  }
+]
