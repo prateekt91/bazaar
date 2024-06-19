@@ -38,11 +38,6 @@ public class ProductServiceImpl implements ProductService{
     @Override
     public List<Product> geProductDetailsBySearchKeyword(String keyword) {
 
-//        MongoClient mongoClient = new MongoClient(
-//                new MongoClientURI(
-//                        ""
-//                )
-//        );
         List<Product> products = new ArrayList<>();
         MongoDatabase database = mongoClient.getDatabase("bazaar");
         MongoCollection<Document> collection = database.getCollection("Products");
@@ -53,8 +48,6 @@ public class ProductServiceImpl implements ProductService{
                 new Document("$sort",
                         new Document("stock", 1L))));
                // new Document("$limit", 10L)));
-
-
 
         result.forEach(product -> products.add(mongoConverter.read(Product.class,product)));
 
