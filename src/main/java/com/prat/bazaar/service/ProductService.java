@@ -11,4 +11,8 @@ public interface ProductService {
     public Product getProductById(String id);
 
     List<Product> geProductDetailsBySearchKeyword(String keyword);
+
+    Boolean createNewProducts(List<Product> products);
+
+    Boolean updateExistingProduct(Product product);
 }
