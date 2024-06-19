@@ -16,6 +16,7 @@ public class Product {
     private String category;
     private int stock;
     private Date createdAt;
+    private String imageUrl;
 
 
     @Override
@@ -27,6 +28,7 @@ public class Product {
                 ", category='" + category + '\'' +
                 ", stock=" + stock +
                 ", createdAt=" + createdAt +
+                ", imageUrl='" + imageUrl + '\'' +
                 '}';
     }
 
@@ -84,5 +86,13 @@ public class Product {
 
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
