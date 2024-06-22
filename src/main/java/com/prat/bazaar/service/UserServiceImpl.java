@@ -1,8 +1,9 @@
 package com.prat.bazaar.service;
 
-import com.prat.bazaar.encryption.Encrypt;
+import com.prat.bazaar.encryption.EncryptAndVerify;
 import com.prat.bazaar.model.User;
 import com.prat.bazaar.repositories.UserRepo;
+import org.mindrot.jbcrypt.BCrypt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class UserServiceImpl implements UserService{
     UserRepo userRepo;
 
     @Autowired
-    Encrypt encrypt;
+    EncryptAndVerify encryptAndVerify;
 
     private static final Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
 //    @Autowired
@@ -26,7 +27,7 @@ public class UserServiceImpl implements UserService{
     @Override
     public User saveUser(User user) {
         try {
-            user.setPassword(encrypt.hashPassword(user.getPassword()));
+            user.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt(12)));
             return userRepo.save(user);
         } catch (Exception e) {
             log.error("Error in saving user", e);
