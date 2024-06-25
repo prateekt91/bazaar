@@ -1,6 +1,5 @@
-package com.prat.bazaar.product;
+package com.prat.bazaar;
 
-import com.prat.bazaar.encryption.EncryptAndVerify;
 import com.prat.bazaar.model.User;
 import com.prat.bazaar.model.UserCred;
 import com.prat.bazaar.service.UserService;
