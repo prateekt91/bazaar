@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 import {SearchService} from "../search.service";
 import {FormsModule} from "@angular/forms";
+import {Products} from "../model/Products";
 
 @Component({
   selector: 'app-header',
@@ -17,6 +18,7 @@ export class AppHeaderComponent {
 
   navLinksVisible = false;
   searchQuery: string = '';
+  //searchedProducts: Products[] = [];
 
   toggleNavLinks() {
     this.navLinksVisible = !this.navLinksVisible;
@@ -25,16 +27,19 @@ export class AppHeaderComponent {
   constructor(private searchService: SearchService) {}
 
   onSearch()  {
-    if(this.searchQuery) {
+   // if(this.searchQuery) {
       this.searchService.searchProduct(this.searchQuery).subscribe(
         (response) => {
           console.log('search result',response);
           //TODO Handle result here
+          if(response) {
+            this.searchService.setSearchResults(response);
+          }
         },
         error => {
           console.error("Error occurred during search result", error);
         }
       );
     }
-  }
+ // }
 }

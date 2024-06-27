@@ -1,0 +1,20 @@
+<!-- search-results.component.html -->
+<div *ngIf="products.length > 0">
+  <h2>Search Results:</h2>
+
+  <div class="product-list">
+    <div *ngFor="let product of products" class="product-card">
+      <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image"/>
+      <div class="product-details">
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.description }}</p>
+        <p><strong>Price:</strong> ${{ product.price }}</p>
+        <p><strong>Category:</strong> {{ product.category }}</p>
+        <p><strong>Stock:</strong> {{ product.stock }}</p>
+        <p><strong>Created At:</strong> {{ product.createdAt | date:'short' }}</p>
+      </div>
+    </div>
+  </div>
+<div *ngIf="products.length === 0">
+  <p>No search results to display.</p>
+</div>
