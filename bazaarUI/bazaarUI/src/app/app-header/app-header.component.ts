@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 import {SearchService} from "../search.service";
 import {FormsModule} from "@angular/forms";
-import {Products} from "../model/Products";
 
 @Component({
   selector: 'app-header',
@@ -14,7 +13,7 @@ import {Products} from "../model/Products";
   templateUrl: './app-header.component.html',
   styleUrl: './app-header.component.css'
 })
-export class AppHeaderComponent {
+export class AppHeaderComponent implements OnInit{
 
   navLinksVisible = false;
   searchQuery: string = '';
@@ -27,7 +26,6 @@ export class AppHeaderComponent {
   constructor(private searchService: SearchService) {}
 
   onSearch()  {
-   // if(this.searchQuery) {
       this.searchService.searchProduct(this.searchQuery).subscribe(
         (response) => {
           console.log('search result',response);
@@ -41,5 +39,14 @@ export class AppHeaderComponent {
         }
       );
     }
- // }
+
+  protected readonly KeyboardEvent = KeyboardEvent;
+
+  ngOnInit(): void {
+    this.onSearch();
+  }
+
+  refreshPage(): void {
+    location.reload();
+  }
 }
